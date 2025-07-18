@@ -81,8 +81,9 @@ body{
 }
 .advice{
     width: 170vh;
-    height: 300px;
+    height: auto;
     background-color: whitesmoke;
+    display: flex;
 }
 .btn{
   background-color: #1C3E53;
@@ -96,13 +97,8 @@ body{
 }
 .infor-container{
     width: 100%;
-    height: 300px;
-    background-color: #1C3E53;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 30px;
+    height: auto;
+    background-color: #141E32;
 }
 .container1 img{
     width: 60px;
@@ -151,7 +147,7 @@ body{
 }
 .infor-text li:not(:last-child)::after {
             content: "|";
-            color: #ccc;
+            color: white;
             margin-left: 10px;
         }
 .container3{
@@ -164,4 +160,79 @@ body{
 .text-aboutus{
     text-align: right;
     font-size: 26px;
+}
+.com-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.text{
+    background-color: whitesmoke;
+    margin-top: 10px;
+}
+.profile{
+    display: flex;
+    /* width: 10px; */
+    /* height: 20px; */
+    background-color: whitesmoke;
+    gap: 10px;
+}
+.img-profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+.text-p{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.footer{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+.footer-com{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+.comment{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border:solid 2px #1C3E53;
+    border-radius: 10px;
+}
+#icon{
+    font-size: 30px;
+    color: wheat;
+    margin-left: 50%;
+}
+.footer-child{
+    width: 100%;
+    height: 30px;
+    background-color: #141E32;
+    display: flex;
+    padding: 20px 0px;
+}
+.all-container{
+    width: 100%;
+    height: 300px;
+    background-color: #1C3E53;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
 }
